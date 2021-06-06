@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav.main-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.main-nav .logo {
+    width: 110px;
+}
+
+.main-nav ul.main-menu {
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav ul.right-menu {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+}
+
+.showcase {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url('./images/coding-bg.jpg') no-repeat center center/cover;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+.showcase h2 , .showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.home-cards img {
+    margin-bottom: 10px;
+}
+
+.home-cards a {
+    display: inline-block;
+    color: blue;
+    padding-top: 10px;
+}
+
+.features {
+height: 400px;
+background: url('./images/thomas-tastet-hSODeSbvzE0-unsplash.jpg') no-repeat center center/cover;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.features div {
+    padding: 20px;
+}
+
+.features h2, .features p {
+    margin-bottom: 10px;
+}
+
+.links {
+    background: lightgrey;
+}
+
+.links-inner {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
